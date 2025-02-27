@@ -12,5 +12,5 @@ def get_doi(title):
         return "DOI não encontrado"
 
 # Exemplo de uso
-titulo = "Acetylcholine modulation in a biophysical model of cortical neuron"
+titulo = "Digite o título da produção do NeuroMat aqui"
 print(get_doi(titulo))
