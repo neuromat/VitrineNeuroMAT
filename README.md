@@ -27,13 +27,28 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-# Running local (with built-in python HTTP server)
+# Testing
 
-1. in Jupyter Notebook, open the most recent `.ipynb` and `Run > Run All Cells`. This updates the `index.html`.
+At this moment, `NeuroMatVitrine.ipynb` is the main entrypoint, and it is the source for the production page.
 
-1. start the HTTP server on port `8000`
+1. Make sure all cells run successfully: in Jupyter Notebook, open  ``NeuroMatVitrine.ipynb` and `Run > Run All Cells`
+
+**Or**, using the CLI:
+```sh
+jupyter nbconvert --to notebook --execute NeuroMatVitrine.ipynb
+```
+
+# Validating
+
+To see the changes as they will appear in the production server, you need to:
+
+1. update `index.html`: once you have the new data, add it to the appropriated fields in the `index.html`
+
+1. run a local HTTP server on port `8000` with Python's built-in server:
 ```sh
 python3 -m http.server 8000
 ```
 
 1. visit `http://localhost:8000` to verify your changes
+
+1. make sure your changes don't break the page style: you can use an online HTML linter to help you
