@@ -1,5 +1,4 @@
-item;título;doi;arxiv;pmid;isbn;doi_score;"arxiv_score
-";pmid_score;isbn_score;are_scores_different;final_score;cited_by_tweeters;cited_by_rdts;readers_count;cited_by_posts_count;cited_by_feeds_count;cited_by_accounts_count;cited_by_msm_count;cited_by_fbwalls_count;cohorts;cited_by_videos_count;cited_by_gplus_count;cited_by_tweeters_count;arxiv_id
+item;título;doi;arxiv;pmid;isbn;doi_score;arxiv_score;pmid_score;isbn_score;are_scores_different;final_score;cited_by_tweeters;cited_by_rdts;readers_count;cited_by_posts_count;cited_by_feeds_count;cited_by_accounts_count;cited_by_msm_count;cited_by_fbwalls_count;cohorts;cited_by_videos_count;cited_by_gplus_count;cited_by_tweeters_count;arxiv_id;cited_by_wikipedia_count
 Q101496224;Statistical Methods in Graphs: Parameter Estimation, Model Selection, and Hypothesis Test;10.1002/9783527693245.CH6;;0;;0;;;;;;;0;0;0;0;0;0;0;;0;0;0;0
 Q38851713;Computational Tracking of Mental Health in Youth: Latin American Contributions to a Low-Cost and Effective Solution for Early Psychiatric Diagnosis;10.1002/CAD.20159;;0;;0;;;;;;;0;0;0;0;0;0;0;;0;0;0;0
 Q132171719;Real-Time Tractography-Assisted Neuronavigation for Transcranial Magnetic Stimulation;10.1002/HBM.70122;;0;;0;;;;;;;0;0;0;0;0;0;0;;0;0;0;0
@@ -29,7 +28,7 @@ Q113167023;Forearm and Hand Muscles Exhibit High Coactivation and Overlapping of
 Q101496266;Discrepancy and eigenvalues of Cayley graphs;10.1007/S10587-016-0302-X;1602.02291;0;;0.5;;;;;;;0;4;2;0;2;0;0;;0;0;2;1602.02291
 Q47981034;Bootstrap testing for cross-correlation under low firing activity;10.1007/S10827-015-0557-5;1412.5004;25868704;;1.75;;;;;;;0;20;3;0;3;0;0;;0;0;3;1412.5004
 Q64896444;Dynamics of spontaneous activity in random networks with multiple neuron subtypes and synaptic noise@Dynamics of spontaneous activity in random networks with multiple neuron subtypes and synaptic noise: Spontaneous activity in networks with synaptic noise.;10.1007/S10827-018-0688-6;1709.09748;29923159;;2.75;;;;;;;0;49;7;0;7;0;1;;0;0;6;1709.09748
-Q56592766;Infinite Systems of Interacting Chains with Memory of Variable Length—A Stochastic Model for Biological Neural Nets;10.1007/S10955-013-0733-9;1212.5505;0;;3;;;;;;;0;45;7;0;7;0;0;;0;0;0;1212.5505
+Q56592766;Infinite Systems of Interacting Chains with Memory of Variable Length—A Stochastic Model for Biological Neural Nets;10.1007/S10955-013-0733-9;1212.5505;0;;3;;;;;;;0;45;7;0;7;0;0;;0;0;0;1212.5505;7
 Q98799536;Hydrodynamic Limit for Interacting Neurons;10.1007/S10955-014-1145-1;1401.4264;0;;4.25;;;;;;;0;15;8;0;7;0;1;;0;0;4;1401.4264
 Q101496269;Finite Cycle Gibbs Measures on Permutations of Z^d;10.1007/S10955-014-1169-6;1407.6542;0;;1;;;;;;;0;2;4;0;3;0;0;;0;0;3;1407.6542
 Q101496271;Potential Well Spectrum and Hitting Time in Renewal Processes;10.1007/S10955-015-1216-Y;;0;;0;;;;;;;0;0;0;0;0;0;0;;0;0;0;0
