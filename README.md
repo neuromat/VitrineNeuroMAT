@@ -44,6 +44,12 @@ To see the changes as they will appear in the production server, you need to:
 
 1. update `index.html`: once you have the new data, add it to the appropriated fields in the `index.html`
 
+1. **or** update `index.html` using:
+
+```sh
+jupyter nbconvert --to html --no-input --execute NeuroMatVitrine.ipynb --output index.html
+```
+
 1. run a local HTTP server on port `8000` with Python's built-in server:
 ```sh
 python3 -m http.server 8000
